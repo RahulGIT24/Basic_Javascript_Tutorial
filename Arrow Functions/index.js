@@ -26,11 +26,12 @@ console.log(add(12, 90));
 let sum2 = (a, b) => a + b;
 console.log(sum2(12, 56));
 
-//* When you are taking two arguments you dont need to add brackets
+//* When you are taking one argument you don't need to add brackets
 
-let half = (a) => a / 2;
+let half = a => a / 2;
 console.log(half(3));
 
+//* When you are taking two arguments you  need to add brackets
 let num = (a, b) => console.log(a + b);
 num(67, 90);
 
